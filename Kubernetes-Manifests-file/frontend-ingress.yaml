@@ -13,8 +13,8 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: www.theshaggy.live
-      http:
+    # - host: www.theshaggy.live
+     - http:
         paths:
           - path: /
             pathType: Prefix
