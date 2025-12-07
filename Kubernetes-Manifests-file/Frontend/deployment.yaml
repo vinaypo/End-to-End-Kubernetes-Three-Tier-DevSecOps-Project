@@ -29,6 +29,6 @@ spec:
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND_URL
-            value: "http://amanpathakdevops.study/api/tasks"
+            value: "http://internal-k8s-threetie-backendi-91545a2c8a-286884163.us-east-1.elb.amazonaws.com/api/tasks"
         ports:
         - containerPort: 3000
